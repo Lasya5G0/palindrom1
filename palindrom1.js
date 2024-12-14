@@ -4,7 +4,7 @@ const app = express();
 const port = 3111; // Port to listen on
 
 // Function to check if a string is a palindrome
-function isPalindrome(str) {
+function isPalindrom1(str) {
     const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase(); // Remove non-alphanumeric characters and convert to lowercase
     const reversedStr = cleanedStr.split('').reverse().join('');
     return cleanedStr === reversedStr;
